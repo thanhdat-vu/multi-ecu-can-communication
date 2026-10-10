@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F407 Main AUTOSAR-lite",
+            "includePath": [
+                "${workspaceFolder}/Base",
+                "${workspaceFolder}/Config",
+                "${workspaceFolder}/Services",
+                "${workspaceFolder}/Bsw",
+                "${workspaceFolder}/Mcal",
+                "${workspaceFolder}/EcuAbstraction",
+                "${workspaceFolder}/Rte",
+                "${workspaceFolder}/Swc",
+                "${workspaceFolder}/App"
+            ],
+            "defines": [],
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

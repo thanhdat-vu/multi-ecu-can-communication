@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "STM32F103 ABS AUTOSAR",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/App",
+        "${workspaceFolder}/Base",
+        "${workspaceFolder}/Bsw",
+        "${workspaceFolder}/Mcal",
+        "${workspaceFolder}/EcuAbstraction",
+        "${workspaceFolder}/Rte",
+        "${workspaceFolder}/Services",
+        "${workspaceFolder}/Swc",
+        "${workspaceFolder}/Config"
+      ],
+      "defines": ["STM32F103xB"],
+      "compilerPath": "arm-none-eabi-gcc",
+      "cStandard": "c11",
+      "intelliSenseMode": "windows-gcc-arm"
+    }
+  ],
+  "version": 4
+}
